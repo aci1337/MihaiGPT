@@ -1,0 +1,37 @@
+if (window.location.href !== "https://chat.openai.com/chat?model=text-davinci-002-render-paid") {
+window.location.href = "https://chat.openai.com/chat?model=text-davinci-002-render-paid";
+} else {
+let elementToRemove = document.querySelector(".md\\:flex.items-start.text-center.gap-3\\.5");
+if (elementToRemove) {
+  let newElement = document.createElement("h1");
+  newElement.className = "text-4xl font-semibold text-center mt-6 sm:mt-[20vh] ml-auto mr-auto mb-10 sm:mb-16 flex gap-2 items-center justify-center";
+  newElement.innerHTML = "ChatGPT<span class='bg-yellow-200 text-yellow-900 py-0.5 px-1.5 text-xs md:text-sm rounded-md uppercase'>Plus</span>";
+  elementToRemove.parentNode.replaceChild(newElement, elementToRemove);
+let h1Element = document.querySelector("h1");
+
+let madeByText = document.createElement("p");
+madeByText.classList.add("text-center");
+madeByText.textContent = "made by aci25#9869 (bypasss)";
+
+h1Element.insertAdjacentElement("afterend", madeByText);
+
+}
+let caca= document.querySelector("h1.text-4xl.font-semibold.text-center.mt-6.sm\\:mt-\\[20vh\\].ml-auto.mr-auto.mb-10.sm\\:mb-16.flex.gap-2.items-center.justify-center");
+if (caca) {
+    caca.parentNode.removeChild(caca);
+}
+let cacae= document.querySelector("a.flex.py-3.px-3.items-center.gap-3.rounded-md.hover\\:bg-gray-500\\/10.transition-colors.duration-200.text-white.cursor-pointer.text-sm");
+
+if (cacae) {
+    cacae.parentNode.removeChild(caca);
+}
+let cacaed = document.querySelector("a.flex.py-3.px-3.items-center.gap-3.rounded-md.hover\\:bg-gray-500\\/10.transition-colors.duration-200.text-white.cursor-pointer.text-sm");
+
+if (cacaed) {
+    cacaed.parentNode.removeChild(caca);
+}
+let elementToRemovea = document.querySelector("nav.flex.h-full.flex-1.flex-col.space-y-1.p-2");
+let parent = elementToRemovea.parentNode;
+parent.removeChild(elementToRemove);
+}
+
